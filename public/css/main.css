@@ -1,0 +1,104 @@
+/* GLOBALS */
+body {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+/* IE fix */
+p { font-size: 1em; }
+
+a {color: #000000;}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;}
+
+h1 {font-size: 250%;}
+h2 {font-size: 200%;}
+
+/* GRID SYSTEM */
+.container {
+   float: left;
+   width: 100%;}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;}
+
+[class*="col-"] {
+   float: left;
+   padding: 10px;}
+
+.center {text-align: center;}
+
+.col-1  {width: 8.33%;}
+.col-2  {width: 16.66%;}
+.col-3  {width: 25%;}
+.col-4  {width: 33.33%;}
+.col-5  {width: 41.66%;}
+.col-6  {width: 50%;}
+.col-7  {width: 58.33%;}
+.col-8  {width: 66.66%;}
+.col-9  {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* HEADER */
+@media screen and (max-width: 700px) {
+  .hide-l-1150 {visibility: hidden;}}
+@media screen and (min-width: 700px) {
+  .hide-g-1150 {visibility: hidden;}}
+@media screen and (max-width: 430px) {
+  .opacity-3 {opacity: .3;}}
+
+#logo {
+  background-color: #245967;
+  height: 245px;}
+
+#profile-pic {
+  position: fixed;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  box-shadow: 4px 8px 4px rgba(0,0,0,.5);}
+
+#profile-pic-small {
+  position: fixed;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 4px 8px 4px rgba(0,0,0,.5);
+}
+
+header {color: #ffffff;}
+header h1 {
+  font-family: serif;
+  text-shadow: 5px 5px #000000;}
+header ul li {
+  display: inline-block;
+  padding-top: 20px;
+  padding-right: 5px;}
+header ul li img {
+  width: 34px;
+  height: 34px;}
+header a {color: #ffffff;}
+
+/* MAIN */
