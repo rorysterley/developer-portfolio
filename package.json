@@ -1,0 +1,26 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.2"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rorysterley/developer-portfolio.git"
+  },
+  "author": "Rory Sterley <rorysterley@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rorysterley/developer-portfolio/issues"
+  },
+  "homepage": "https://github.com/rorysterley/developer-portfolio#readme"
+}
