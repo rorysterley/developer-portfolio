@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="author" content="Rory Sterley">
-  <meta name="description" content="A developer portfolio page">
-  <title>Developer Portfolio: Rory Sterley</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <meta charset="utf-8" />
+  <meta name="author" content="Rory Sterley" />
+  <meta name="description" content="A developer portfolio page" />
+  <title>Developer: Rory Sterley</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
-  <header class="container">
+  <header id="header">
     <img src="img/ProfilePic_225x225.jpg" alt="Profile picture: Rory Sterley" id="profile-pic" class="hide-l-1150" />
     <img src="img/ProfilePic_100x100.jpg" alt="Profile picture: Rory Sterley" id="profile-pic-small" class="hide-g-1150 opacity-3" />
     <div id="logo" class="col-12">
@@ -20,8 +21,114 @@
         <li><a href="https://github.com/rorysterley" target="_blank">
           <img src="img/GitHub-Mark-Light-64px.png" alt="GitHub: Rory Sterley" /></a></li>
       </ul>
-      <p class="center"><a href="mailto:rorysterley@gamil.com">rorysterley@gamil.com</a></p>
+      <p id="email" class="center"><a href="mailto:rorysterley@gamil.com">rorysterley@gamil.com</a></p>
     </div>
   </header>
+  <main id="main" class="container">
+    <div class="row">
+      <div class="col-xs-8 col-xs-push-2">
+        <blockquote>I code modular and extensible services and servers using Node.js, JavaScript, Express and RESTful architecture.</blockquote>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-10 col-xs-push-1 well">
+        <h2 class="center">Technical Skills</h2>
+        <div class="col-sm-4 col-sm-push-0 col-xs-10 col-xs-push-1">
+          <em>Back-End</em>
+          <ul>
+            <li>JavaScript</li>
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>REST</li>
+            <li>Superagent</li>
+            <li>MongoDB / Mongoose</li>
+          </ul>
+        </div>
+        <div class="col-sm-4 col-sm-push-0 col-xs-10 col-xs-push-1">
+          <em>Front-End</em>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>AngularJS</li>
+            <li>MVC</li>
+            <li>Responsive Web Design</li>
+          </ul>
+        </div>
+        <div class="col-sm-4 col-sm-push-0 col-xs-10 col-xs-push-1">
+          <em>Tools &amp; Services</em>
+          <ul>
+            <li>Bash</li>
+            <li>Grunt</li>
+            <li>Heroku</li>
+            <li>Browserify</li>
+            <li>Git / GitHub</li>
+            <li>Unit Testing / TDD</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="center">Recent Projects</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-9 col-sm-push-2 col-xs-10 col-xs-push-1 well">
+          <h3>MEAN Stack</h3>
+          <p><i><b>M</b>ongoDB, <b>E</b>xpress, <b>A</b>ngularJS, <b>N</b>ode.js</i></p>
+          <p>See it <a href="https://mean-demo-todo.herokuapp.com" target="_blank">live</a> or on <a href="https://github.com/rorysterley/todo-angular" target="_balnk">GitHub</a>.</p>
+          <p>A production quality Node server ready to extend http(s) routes and you’r choice of authentication with ease. Paired with a responsive Angular front-end, this project demonstrates REST requests factored out as a service to save on repetitive coding (and mistakes). All a developer needs to do is dependency inject and name the route to match a supported server side path and BOOM, access to MongoDB automatically implementing your choice of security.</p>
+          <p>Clean server and client-side tests using Mocha/Chai and Jasmine/Karma respectively make for a quick catch of any breaking code. Oh, and just in case fast page loading and minimal file size is on the list of concerns, the build process compresses all the client-side JavaScript into a single bundled file for fast network transfer.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-9 col-sm-push-1 col-xs-10 col-xs-push-1 well">
+          <h3>WAGOGE</h3>
+          <p><i><b>W</b>icked <b>A</b>wesome <b>G</b>ame <b>o</b>f <b>G</b>reater <b>E</b>mployment</i></p>
+          <p>See it <a href="https://wagoge.herokuapp.com/" target="_blank">live</a> or on <a href="https://github.com/cf-js-game/wagoge" target="_blank">GitHub</a>.</p>
+          <div class="col-xs-12 well">Play a quick demo with the test account:
+            <table>
+              <tr>
+                <td>Email:</td>
+                <td>test</td>
+              </tr>
+              <tr>
+                <td>Password:&nbsp</td>
+                <td>test</td>
+              </tr>
+            </table>
+          </div>
+          <p>Do you like ambitious people willing to shoot for the stars? Well four developers pulled this off with only seven days. Take a look at the beta build and see what can be done with purely web technology.</p>
+          <p>WAGOGE is a procedurally generated top-down hack and slash action role playing game boasting refined A-Star pathfinding (AI). There are an infinite number of possible maps to generate and the item and build diversity are stunning.</p>
+          <b>Technologies:</b>
+          <div class="col-xs-12 well">HTML5 Canvas, React / Flux, Node.js, Express, MongoDB / Mongoose, Crafty, Pasport Authentication, Custom JSON REST API</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="center">Education</h2>
+      <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-9 col-sm-push-2 col-xs-10 col-xs-push-1">
+          <img src="img/CodeFellowsLogo_107x100.png" alt="Code Fellows Logo" id="codefellows" />
+          <h3>Code Fellows</h3>
+          <p>Certificate, Full-Stack JavaScript Development</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+        <div class="col-sm-9 col-sm-push-1 col-xs-10 col-xs-push-1">
+          <img src="img/CorbanLogo_100x100.png" alt="Corban Logo" id="corban" />
+          <h3>Corban University</h3>
+          <p>Bachelor of Science in Pastoral Ministry</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer id="footer" class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p class="center">Rory R. Sterley &copy 2015</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
