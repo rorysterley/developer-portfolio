@@ -31,35 +31,19 @@ i {font-style: italic;}
    float: left;
    width: 100%;}
 
-.row:after {
-  content: "";
-  clear: both;
-  display: block;}
-
-[class*="col-"] {
-   float: left;
-   padding: 10px;}
-
 .center {text-align: center;}
 
-.col-1  {width: 8.33%;}
-.col-2  {width: 16.66%;}
-.col-3  {width: 25%;}
-.col-4  {width: 33.33%;}
-.col-5  {width: 41.66%;}
-.col-6  {width: 50%;}
-.col-7  {width: 58.33%;}
-.col-8  {width: 66.66%;}
-.col-9  {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+[class*="col-"] {padding: 10px;}
 
 /* HEADER */
 @media screen and (max-width: 700px) {
-  .hide-l-1150 {visibility: hidden;}}
+  .hide-l-1150 {
+    visibility: hidden;
+    display: none !important;}}
 @media screen and (min-width: 700px) {
-  .hide-g-1150 {visibility: hidden;}}
+  .hide-g-1150 {
+    visibility: hidden;
+    display: none !important;}}
 @media screen and (max-width: 430px) {
   .opacity-3 {opacity: .3;}}
 
@@ -69,10 +53,8 @@ i {font-style: italic;}
 
 #profile-pic {
   z-index: 100;
-  position: absolute;
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 10px;
+  display: inline;
+  margin-left: 15px;
   width: 225px;
   height: 225px;
   border-radius: 50%;
@@ -80,18 +62,14 @@ i {font-style: italic;}
 
 #profile-pic-small {
   z-index: 100;
-  position: absolute;
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: 5px;
+  display: inline;
+  margin-left: 15px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  box-shadow: 4px 8px 4px rgba(0,0,0,.5);
-}
+  box-shadow: 4px 8px 4px rgba(0,0,0,.5);}
 
 #email {padding-top: 20px;}
-
 #email a {color: #ffffff;}
 #email a:link {text-decoration: none;}
 #email a:visited {text-decoration: none;}
