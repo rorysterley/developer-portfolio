@@ -44,8 +44,6 @@ i {font-style: italic;}
   .hide-g-1150 {
     visibility: hidden;
     display: none !important;}}
-@media screen and (max-width: 430px) {
-  .opacity-3 {opacity: .3;}}
 
 #logo {
   background-color: #245967;
