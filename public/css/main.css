@@ -98,13 +98,14 @@ header a {color: #ffffff;}
 
 #codefellows {
   float: left;
+  margin-left: -12px;
   height: 100px;
   width: 107px;}
 #corban {
   float: left;
   height: 100px;
   width: 100px;
-  padding-right: 5px;}
+  padding-right: 10px;}
 
 .center-box {
   margin: auto;
